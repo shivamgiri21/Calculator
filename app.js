@@ -20,7 +20,7 @@ function calculate(params) {
     }
     catch (err) {
         outputScreen.style.fontSize = "30px";
-        outputScreen.value = "oops! invalid input";
+        outputScreen.value = "Invalid input";
 
     }
 }
